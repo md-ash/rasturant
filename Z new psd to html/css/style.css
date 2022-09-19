@@ -1,0 +1,929 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*///***GROUP-1***//*/
+
+
+/****G1 Background****/
+
+#parent_1{ 
+    position: relative;
+    width: 1440px;
+    height: 800px;
+}
+.background_1{
+    background-image: url(../img/1_back_col.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 800px;
+    top: 0px;
+    
+}
+.back1{
+    background-image: url(../img/1_back_1.jpg);
+    width: 600px;
+    height: 800px;
+    top: 0px;
+    position: absolute;
+}
+.back3{
+    background-image: url(../img/1_back_2.png);
+    position: absolute;
+    width: 400px;
+    height: 900px;
+    margin: -86px 360px;
+    top: 0px;
+}
+.back2{
+     background-image: url(../img/1_back_3.jpg);
+    width: 740px;
+    height: 800px;
+    top: 0px;
+    position: absolute;
+    margin: 0px 0px 0px 700px;
+}
+.logo{
+   background-image: url(../img/LOGO.png);
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    margin: 35px 50px; 
+}
+.back4{
+    background-image: url(../img/1_back_4.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    width: 150px;
+    height: 150px;
+    margin: 600px 0px 0px 800px;
+}
+.back5{
+  background-image: url("../img/1_back_5.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 1020px;
+  top: 600px;
+  width: 100px;
+  height: 100px;
+}
+.back6{
+    background-image: url(../img/1_back_6.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin: 710px 0px 0px 1190px;
+    top: 0px;
+}
+.back7{
+    background-image: url(../img/1_back_7.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    margin: 480px 0px 0px 1250px;
+}
+.back8{
+    background-image: url(../img/1_back_8.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    margin: 300px 0px 0px 500px;
+}
+.back9{
+    background-image: url(../img/1_back_9.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    margin: 120px 0px 0px 1070px;
+}
+.back10{
+    background-image: url(../img/1_back_5.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 610px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+}
+.back11{
+    background-image: url(../img/1_back_5.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 630px;
+    top: 620px;
+    width: 100px;
+    height: 100px;
+}
+.back12{
+    background-image: url(../img/1_back_5.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 1220px;
+    top: 260px;
+    width: 100px;
+    height: 100px;
+}
+
+/*****G1 Menu*****/
+
+.menu{
+    position: absolute;
+    top: 0px;
+    margin: 20px;
+    margin-left: 800px;
+    width: 430px;
+    line-height: 50px;
+    
+}
+ul{
+    display: flex;
+    float: right;
+    list-style: none;
+    font-size: 30px;
+}
+.menu li{
+    font-display: block;
+   
+}
+.menu ul li a{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    text-align: center;
+    display: inline-block;
+    margin-left: 30px;
+    text-shadow: -2px -2px 0 black,
+                 2px -2px 0 black, 
+                 -2px 2px 0 black,
+                 2px 2px 0 black;
+    
+}
+
+/*****G1 SearchBox*****/
+
+a:hover{ 
+text-decoration: none;
+}
+.searchBox{
+    position: absolute;
+    top: 48px;
+    left: 1260px;
+    display: grid;
+    text-align: center;
+}
+.searchText{
+    width: 0px;
+    height: 50px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    border-radius: 10px;
+        
+}
+.searchText:focus{
+    outline: none;
+}
+.searchBtn{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  
+    
+}
+.searchBox:hover >
+    .searchText{
+        width: 170px;
+        text-align-last: center;
+}
+.searchBox:hover > .searchBtn{
+    background-color: #303030;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/*****G1 title-&-description*****/
+
+.t_d{
+    position: absolute;
+    top: 150px;
+    left: 680px;
+    font-size: 50px;
+    color: #ffc200;
+    text-align: left;
+  
+}
+.title{
+    text-decoration-style: solid;
+        font-family: 'Grand Hotel';
+    text-shadow: -2px -2px 0 black,
+                 2px -2px 0 black, 
+                 -2px 2px 0 black,
+                 2px 2px 0 black;
+}
+.descripton{
+    font-family: 'Montserrat';
+    width: 650px;
+    font-size: 30px;
+    margin: -50px 0px;
+}
+.order_1 a{
+    position: absolute;
+    top: 510px;
+    left: 680px;
+    padding: 10px;
+     font-family: 'Montserrat';
+    text-decoration: none;
+    background-color: #ffc200;
+    border: 5px solid #ffc200;
+    font-weight: bolder;
+    font-size: 25px;
+    width: 300px;
+    height: 30px;
+    text-justify: inter-character;
+    text-align-last: center;
+    text-align: center;
+    color: black;
+}    
+
+/*****Group-2****/
+
+/*****G2 background****/
+
+#parent_2{
+    position: relative;
+    width: 1440px;
+    height: 800px;
+}
+.background_2{
+    background-image: url(../img/2_back_col.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 800px;
+    margin: -18px 0px 0px 0px;
+}
+
+/*****G2 title-&-description*****/
+
+#parent_2 .t_d_2{
+    position: absolute;
+    font-size: 80px;
+    top: -10px;
+    color: #000;
+    text-align: left;
+}
+.title_2{
+    font-family: 'Grand Hotel';
+    font-weight: normal;
+    margin-left: 610px;
+    margin-top: -20px;
+}
+.descripton_2{
+    font-family: 'Montserrat';
+    margin-left: 220px;
+    width: 1050px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+/*****G2 item list*****/
+
+.item1{
+    background-image: url(../img/2_item_1.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 300px;
+    margin: 0 0 0 150px;
+}
+.item2{
+    background-image: url(../img/2_item_2.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 300px;
+    margin: 0 0 0 600px;
+}
+.item3{
+    background-image: url(../img/2_item_3.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 300px;
+    margin: 0 0 0 1050px;
+}
+.t_d_2_1{
+    position: absolute;
+    font-size: 50px;
+    top: 0px;
+    color: #000;
+    text-align: left; 
+}
+.title_2_1{
+    font-family: 'Grand Hotel';
+    font-weight: normal;
+    margin: 570px 0 0 170px;
+    width: 200px;
+    height: 50px;
+}
+.title_2_2{
+    font-family: 'Grand Hotel';
+    font-weight: normal;
+    margin-left: 620px;
+    margin-top: -270px;
+    position: absolute;
+    width: 200px;
+}
+.title_2_3{
+    font-family: 'Grand Hotel';
+    font-weight: normal;
+    margin-left: 1080px;
+    margin-top: -270px;
+    position: absolute;
+    width: 200px;
+}
+.description_2_1{
+    font-family: 'Montserrat';
+    margin-left: 80px;
+    width: 350px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 0 100px;
+
+}
+.description_2_2{
+    font-family: 'Montserrat';
+    margin-left: 80px;
+    width: 350px;
+    font-size: 30px;
+    text-align: center;
+    margin: -145px 0 0 560px ;
+    
+}
+
+.description_2_3{
+    font-family: 'Montserrat';
+    margin-left: 80px;
+    width: 350px;
+    font-size: 30px;
+    text-align: center;
+    margin: -145px 0 0 1000px;
+}
+/*****Group-3****/
+
+/*****G3 background****/
+
+#parent_3{
+    position: relative;
+    width: 1440px;
+    height: 800px;
+}
+.background_3{
+    background-image: url(../img/3_back_col.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 800px;
+}
+.back1_3{
+    background-image: url(../img/3_back_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 800px;
+    position: absolute;
+    top: 200px;
+}
+.back2_3{
+    background-image: url(../img/3_back_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 445px;
+    height: 445px;
+    position: absolute;
+    top: 260px;
+    margin: 0 0 110px 120px;
+}
+
+/******G3 title description*****/
+
+.t_d_3{
+    position: absolute;
+    font-size: 45px;
+    top: 360px;
+    text-align: left; 
+}
+.title_3{
+    color: #ffc200;
+    font-family: 'Grand Hotel';
+    margin: 0 0 0 760px;
+    text-shadow: -2px -2px 0 black,
+                 2px -2px 0 black, 
+                 -2px 2px 0 black,
+                 2px 2px 0 black;
+}
+.description_3{
+    color: #fff;
+    font-family: 'Montserrat';
+    text-align: left;
+    width: 620px;
+    font-size: 30px;
+    margin: 10px 0 0 760px;
+}
+.order_3{
+    color: #000;
+    position: absolute;
+    top: 640px;
+    font-size: 25px;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    margin: 0 0 0 760px;
+    background-color: #ffc200;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border: 5px solid #ffc200;
+    font-weight: bolder;
+    text-justify: inter-character;
+    text-align-last: center;
+}
+
+/*******GROUP 4******/
+
+/*****G4 background****/
+
+#parent_4{
+    position: relative;
+    width: 1440px;
+    height: 800px;
+}
+.background_4{
+    background-image: url(../img/4_back_col.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 800px;
+}
+.back1_4{
+    background-image: url(../img/1_back_5.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 60px;
+    margin-left: 300px;
+}
+.back2_4{
+    background-image: url(../img/1_back_9.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 60px;
+    margin-left: 1000px;
+}
+.back3_4{
+    background-image: url(../img/1_back_8.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 200px;
+    margin-left: 15px;
+}
+.back4_4{
+    background-image: url(../img/1_back_5.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 220px;
+    margin-left: 1250px;
+}
+.back5_4{
+    background-image: url(../img/1_back_7.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 420px;
+    margin-left: 1250px;
+}
+.back6_4{
+    background-image: url(../img/1_back_6.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 650px;
+    margin-left: 1200px;
+}
+.back7_4{
+    background-image: url(../img/1_back_4.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 600px;
+    margin-left: 800px;
+}
+.back8_4{
+    background-image: url(../img/4_back_new.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 590px;
+    margin-left: 330px;
+}
+.back9_4{
+    background-image: url(../img/1_back_5.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 670px;
+    margin-left: 50px
+}
+
+/*****G4 text line*****/
+
+.title_4{
+    position: absolute;
+    top: 30px;
+    text-align: center;
+    font-family: 'Grand Hotel';
+    font-size: 100px;
+    margin-left: 500px;
+    width: 400px;
+    height: 50px;
+    color: #ffc200;
+    text-shadow: -2px -2px 0 black,
+                 2px -2px 0 black, 
+                 -2px 2px 0 black,
+                 2px 2px 0 black;
+}
+.description_4{
+    position: absolute;
+    font-family: 'montserrat';
+    font-size: 32px;
+    top: 190px;
+    width: 970px;
+    height: auto;
+    text-align: left;
+    margin-left: 280px;
+    color: #fff;
+    
+}
+.circle_1{
+    background-image: url(../img/4_circle.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 350px;
+    margin-left: 150px;
+}
+.circle_2{
+    background-image: url(../img/4_circle.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 350px;
+    margin-left: 430px;
+}
+.circle_3{
+    background-image: url(../img/4_circle.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 350px;
+    margin-left: 720px;
+}
+.circle_4{
+    background-image: url(../img/4_circle.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 350px;
+    margin-left: 1000px;
+}
+.circleTitle{
+    color: #ffc200;
+    text-align: center;
+    font-family: 'montserrat';
+    font-size: 50px;
+    margin-left: -20px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.circleTitle_col{
+    color: #fff;
+    text-align: center;
+    font-family: 'montserrat';
+    font-size: 30px;
+    font-weight: bold;
+    margin: -55px 0 0 -20px;
+    
+}
+
+/*******GROUP 5******/
+
+/*****G5 background****/
+
+#parent_5{
+    position: relative;
+    width: 1440px;
+    height: 800px;
+}    
+.background_5{
+    background-image: url(../img/5_back_col.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 800px;
+}
+.back1_5{
+    background-image: url(../img/5_back_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 672px;
+    position: absolute;
+    top: 0px;
+}
+.back2_5{
+    background-image: url(../img/5_back_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 445px;
+    height: 445px;
+    top: 160px;
+    margin-left: 840px;    
+}
+
+/******G5 title description*****/ 
+
+.title_5{
+    font-family: 'Grand Hotel';
+    position: absolute;
+    top: 80px;
+    margin-left: 120px;    
+    font-size: 50px;
+    color: #ffc200;
+    text-shadow: -2px -2px 0 black,
+                 2px -2px 0 black, 
+                 -2px 2px 0 black,
+                 2px 2px 0 black;
+}
+.description_5{
+    color: #fff;
+    position: absolute;
+    top: 270px;
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: 'montserrat';
+    width: 615px;
+}
+.order_5{
+    color: #000;
+    position: absolute;
+    top: 460px;
+    font-size: 25px;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    margin: 0 0 0 120px;
+    background-color: #ffc200;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border: 5px solid #ffc200;
+    font-weight: bolder;
+    text-justify: inter-character;
+    text-align-last: center;
+    text-transform: uppercase;
+}
+
+/********GROUP 6*******/
+
+/****G6 background****/
+
+#parent_6{
+    position: relative;
+    width: 1440px;
+    height: 800px;
+}
+.backIMG_6{
+    background-image: url(../img/6_back_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 800px;
+}
+.background_6{
+    background-image: url(../img/6_back_col.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    top: 0PX;
+    opacity: 70%;
+}
+.t_d_6{
+    position: absolute;
+    top: 250px;
+    margin-left: 260px;
+    width: 920px;
+    height: 250px;
+    text-align: center;
+}
+.description_6{
+    font-family: 'montserrat';
+    font-size: 40px;
+}
+.title_6{
+    font-family: 'Grand hotel';
+    font-size: 65px;
+    margin-top: -20px;
+}
+
+/********GROUP 7*******/
+
+/****G7 background****/
+
+#parent_7{
+    position: relative;
+    width: 1440px;
+    height: 800px;
+}
+.background_7{
+    background-image: url(../img/7_back_col.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 800px;
+}
+
+/****"Group 7" Back design Div style class connected 
+to "Group 4" back design style class****/
+
+/** please check #parent_4 .back1_4 to .back9_4**/
+
+/***** G7 Text line*****/
+
+.t_d_7{
+    position: absolute;
+    top: 260px;
+    width: 920px;
+    height: 250px;
+    text-align: center;
+}
+.title_7{
+    position: absolute;
+    text-align: center;
+    font-family: 'Grand Hotel';
+    font-size: 100px;
+    top: -170px;
+    left: 500px;
+    width: 400px;
+    height: 50px;
+    color: #000;
+    text-shadow: -2px -2px 0 #fff,
+                 2px -2px 0 #fff, 
+                 -2px 2px 0 #fff,
+                 2px 2px 0 #fff;
+}
+.description_7{
+    position: absolute;
+    font-family: 'montserrat';
+    font-size: 32px;
+    margin-left: 260px;
+    width: 970px;
+    height: auto;
+    text-align: center;
+    color: #000;
+    
+}
+.form{
+    position: absolute;
+    top: 400px;
+    left: 320px;
+    width: 900px;
+    height: 100px;
+    padding: 20px;
+    font-family: 'montserrat';
+}
+input{
+    width: 800px;
+    height: 70px;
+    text-align: left;
+    border: 0px;
+    background-color: #f4f4ff;
+    padding: 10px;
+    font-size: 40px;
+}
+form a{
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    background-color: #ffc200;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    margin-left: -288px;
+}
+
+/********GROUP 8*******/
+
+/****G8 background****/
+
+#parent_8{
+    position: relative;
+    width: 1440px;
+    height: 800px;
+}
+.background_8{
+    background-image: url(../img/8_back_col.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 800px;
+}
+
+/****G8 text line****/
+
+.table{
+    position: absolute;
+    top: 300px;
+    text-align: left;
+    color: #fff;
+    font-family: 'montserrat';
+    margin-left: 720px;
+    width: 720px;
+    height: auto;
+    font-size: 22px;
+}
+td{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+th{
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.social{
+    position: absolute;
+    top: 300px;
+    text-align: left;
+    color: #fff;
+    font-family: 'montserrat';
+    margin: 0 0 0 100px;
+    width: 450px;
+    height: auto;
+    font-size: 22px;
+}
+.socialLink{
+    position: absolute;
+    top: 520px;
+    margin-left: 100px;
+    word-spacing: 10px;
+}
+.socialLink a{
+    text-decoration: none
+    ;
+}
